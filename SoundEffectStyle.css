@@ -1,0 +1,1952 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+p{
+    color:#5f5f5f;
+    
+    margin-top: 50px;
+    margin-left:250px;
+    margin-bottom: 30px;
+}
+.navbarv{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.navbarv ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+  
+  
+}
+.navbarv ul li a{
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 15px;
+   
+}
+
+.player{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player1{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player2{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player3{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player4{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player5{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;  
+}
+.player6{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player7{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player8{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player9{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player10{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player11{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player12{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player13{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px; 
+}
+.player14{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player15{
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player16{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player17{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player18{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player19{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player20{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player21{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player22{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player23{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player24{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player25{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player26{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player27{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player28{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player29{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player30{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player31{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player32{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player33{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player34{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player35{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player36{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player37{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player38{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player39{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player40{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player41{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player42{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player43{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player44{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player45{
+
+    margin-top: 5px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerTwenty{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerOne{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerTwo{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerThree{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerFour{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerFive{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerSix{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerSeven{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerEight{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerNine{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerTen{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerEleven{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerTwelve{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerThirteen{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerFourteen{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerFifteen{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerSixteen{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerSeventeen{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerEighteen{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerNineteen{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerTwentyone{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerTwentytwo{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerTwentythree{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerTwentyfour{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.playerTwentyfive{
+    margin-top: 30px;
+    width: 640px;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+}
+.player15 .info{
+    display: flex;
+    margin-left: 110px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player1 .info{
+    display: flex;
+    margin-left:10px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player2 .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player3 .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player4 .info{
+    display: flex;
+    margin-left:20px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player5 .info{
+    display: flex;
+    margin-left:90px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player6 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player7 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player8 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player9 .info{
+    display: flex;
+    margin-left:130px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player10 .info{
+    display: flex;
+    margin-left:50px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player11 .info{
+    display: flex;
+    margin-left:120px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player12 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player13 .info{
+    display: flex;
+    margin-left:50px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player14 .info{
+    display: flex;
+    margin-left:90px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player16 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player17 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player18 .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player19 .info{
+    display: flex;
+    margin-left:60px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player20 .info{
+    display: flex;
+    margin-left:50px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player22 .info{
+    display: flex;
+    margin-left:150px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player23 .info{
+    display: flex;
+    margin-left:70px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player24 .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player25 .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player26 .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player27 .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player28 .info{
+    display: flex;
+    margin-left:160px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player29 .info{
+    display: flex;
+    margin-left:130px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player30 .info{
+    display: flex;
+    margin-left:170px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player31 .info{
+    display: flex;
+    margin-left:170px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player32 .info{
+    display: flex;
+    margin-left:170px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player33 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player34 .info{
+    display: flex;
+    margin-left:180px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player35 .info{
+    display: flex;
+    margin-left:130px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player36 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player37 .info{
+    display: flex;
+    margin-left:140px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player38 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player39 .info{
+    display: flex;
+    margin-left:120px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player40 .info{
+    display: flex;
+    margin-left:120px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player41 .info{
+    display: flex;
+    margin-left:150px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player42 .info{
+    display: flex;
+    margin-left:130px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player43 .info{
+    display: flex;
+    margin-left:150px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player44 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player45 .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.player21 .info{
+    display: flex;
+    margin-left:170px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerOne .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerTwo .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerThree .info{
+    display: flex;
+    margin-left:40px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerFour .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerFive .info{
+    display: flex;
+    margin-left:150px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerSix .info{
+    display: flex;
+    margin-left:130px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerSeven .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerEight .info{
+    display: flex;
+    margin-left:200px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerNine .info{
+    display: flex;
+    margin-left:185px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerTen .info{
+    display: flex;
+    margin-left:90px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerEleven .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerTwelve .info{
+    display: flex;
+    margin-left:200px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerThirteen .info{
+    display: flex;
+    margin-left:170px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerFourteen .info{
+    display: flex;
+    margin-left:140px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerFifteen .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerSixteen .info{
+    display: flex;
+    margin-left:90px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerSeventeen .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerEighteen .info{
+    display: flex;
+    margin-left:80px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerNineteen .info{
+    display: flex;
+    margin-left:90px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerTwenty .info{
+    display: flex;
+    margin-left:190px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerTwentyone .info{
+    display: flex;
+    margin-left:150px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerTwentytwo .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerTwentythree .info{
+    display: flex;
+    margin-left:170px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerTwentyfour .info{
+    display: flex;
+    margin-left:100px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+.playerTwentyfive .info{
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+
+
+
+
+
+.control,#current{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding-block: 16px;
+}
+
+
+.control,#button{
+    margin-left: 400px;
+   margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button1{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button2{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button3{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button4{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button5{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button6{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button7{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button8{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button9{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button10{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button11{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button12{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button13{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button14{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button15{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button16{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button17{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button18{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button19{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button20{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button21{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button22{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button23{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button24{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button25{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button26{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button27{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button28{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button29{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button30{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button31{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button32{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button33{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button34{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button35{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button36{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button37{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button38{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button39{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button40{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button41{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button42{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button43{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+
+.control,#button44{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#button45{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonOne{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonTwo{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonThree{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonFour{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonFive{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonSix{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonSeven{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonEight{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonNine{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonTen{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonEleven{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonTwelve{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonThirteen{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonFourteen{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonFifteen{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonSixteen{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonSeventeen{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonEighteen{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonNineteen{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonTwenty{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonTwentyone{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonTwentytwo{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonTwentythree{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonTwentyfour{
+    margin-left: 400px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+.control,#buttonTwentyfive{
+    margin-left: 50px;
+    margin-top: -10px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+
+
+
+.info{
+    display: flex;
+   justify-content: center;
+   font-size: 15px;
+   color: #5f5f5f;
+}
+#current{
+    text-align: left;
+}
+
+ .download a{
+    margin-left: 70px;
+       text-decoration: none;
+    color: #5f5f5f;
+    
+}
+
+
+
+
+

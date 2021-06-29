@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http:/www.w3.org/1999/xhtml">
+    <head>
+    <title>Music and sound effects</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Download copyright free music from here!">
+    <link rel="stylesheet" href="style.css" file="text/css"media="screen, projection"/>
+    <link rel = "icon" href = "favicon.png"> 
+    </head>
+    <body>
+ <div class="container">
+   <div class="navbar">
+     
+       <ul>
+        <li><a class="navlink" href="index.html">Home</a></li>
+        <li><a class="navlink" href="Sound effects.html">Sound effects</a></li>
+        <li><a class="navlink" href="Music.html">Music</a></li>
+        <li><a class="navlink" href="About.html">About Creator</a></li><hr/>
+       </ul>
+   </div>
+   <div class="content">
+       <div class="left-col">
+           <h1>The<br/>real<br>sound</h1>
+       </div>
+       <div class="right-col">
+           <p>Click here to listen</p>
+           
+           <img src="play-button.png" id="icon">
+       
+       </div>
+   </div>
+ </div>
+ <audio id="aesthetic song">
+     <source src="Home.mp4" type="audio/mp4">
+ </audio>
+ <script >
+     var mySong= document.getElementById("aesthetic song")
+     var icon= document.getElementById("icon")
+     icon.onclick=function(){
+         if(mySong.paused){
+             mySong.play();
+             icon.src="Button.png";
+             
+         }else{
+            mySong.pause();
+            icon.src="play-button.png";
+         }
+     }
+ </script>
+    </body>
+</html>
